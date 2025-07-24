@@ -59,3 +59,53 @@
         ]
     }
 }
+
+❯ ansible-inventory -i example-inventory.py --list
+{
+    "_meta": {
+        "hostvars": {
+            "host1": {
+                "fly_rod": true
+            }
+        }
+    },
+    "all": {
+        "children": [
+            "ungrouped",
+            "groupA"
+        ]
+    },
+    "groupA": {
+        "hosts": [
+            "host1",
+            "host2",
+            "host3",
+            "host4",
+            "host5",
+            "host6",
+            "host7",
+            "host8",
+            "host9",
+            "host10",
+            "host11",
+            "host12",
+            "host13",
+            "host14",
+            "host15",
+            "host16",
+            "host17",
+            "host18",
+            "host19",
+            "host20",
+            "host21",
+            "host22",
+            "host23",
+            "host24",
+            "host25"
+        ]
+    }
+}
+❯ ansible-inventory -i example-inventory.py --host host1
+{
+    "fly_rod": true
+}
