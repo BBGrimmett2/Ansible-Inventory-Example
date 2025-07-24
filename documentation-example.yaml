@@ -1,0 +1,33 @@
+# Example file from https://docs.redhat.com/en/documentation/red_hat_ansible_automation_platform/2.5/html/configuring_automation_execution/assembly-inventory-file-importing#supported_file_syntax
+all:
+  children:
+    groupA:
+      hosts:
+        host1:
+          fly_rod: true
+        host2: 
+        host3: 
+        host4: 
+        host5: 
+        host6: 
+        host7: 
+        host8: 
+        host9: 
+        host10: 
+        host11: 
+        host12: 
+        host13: 
+        host14: 
+        host15: 
+        host16: 
+        host17: 
+        host18: 
+        host19: 
+        host20: 
+        host21: 
+        host22: 
+        host23: 
+        host24: 
+        host25: 
+    ungrouped: 
+  vars: 
